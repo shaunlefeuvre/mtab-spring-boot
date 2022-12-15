@@ -6,8 +6,8 @@ The entrypoint is `com.mtab.spring.boot.Application` and the server will be star
 
 ## Tasks
 1. Create an API that accepts a string of text in the request body and returns a UUID for the request
-2. This API should persist the text using any method, it does not need to be durable
-3. Create a second API that accepts one UUID and returns useful information about the text (example: number of words)
+2. This API should persist the text using an in-memory map
+3. Create a second API that accepts one UUID and returns the number of words in the mapped string value
 4. Create tests that ensure the correctness of your implementation
 
 ## Notes
